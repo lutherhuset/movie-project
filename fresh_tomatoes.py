@@ -57,6 +57,9 @@ main_page_head = '''
             top: 0;
             background-color: white;
         }
+        h2 {
+            color: purple
+        }
     </style>
     <script type="text/javascript" charset="utf-8">
         // Pause the video when the modal is closed
