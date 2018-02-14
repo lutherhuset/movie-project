@@ -11,10 +11,13 @@ gotg2 = media.Movie("Guardians of the Galaxy 2", "Cool space fights and a dope b
 #print(gotg2.title)
 
 logan = media.Movie("Logan", "Cool earth fights and Hugh Jackman.","https://upload.wikimedia.org/wikipedia/en/3/37/Logan_2017_poster.jpg", "https://www.youtube.com/watch?v=v_SyrpYk-Ik")
-#print(gotg2.title)
+#print(logan.title)
 
 jumanji = media.Movie("Jumanji", "Animal stampedes, Robin Williams, and two unlucky orphans play a board game.", "https://upload.wikimedia.org/wikipedia/en/thumb/b/b6/Jumanji_poster.jpg/220px-Jumanji_poster.jpg", "https://www.youtube.com/watch?v=_lUiJsnGXh8")
-#print(gotg2.title)
+#print(jumanji.title)
 
-movies = [django, frozen, gotg2, logan, jumanji]
+blade = media.Movie("Blade", "Bad ass never aging samarui vampire.", "https://upload.wikimedia.org/wikipedia/en/thumb/1/19/Blade_movie.jpg/220px-Blade_movie.jpg", "https://www.youtube.com/watch?v=cI5RYgvPHLU")
+#print(blade.title)
+
+movies = [django, frozen, gotg2, logan, jumanji, blade]
 fresh_tomatoes.open_movies_page(movies)
