@@ -21,3 +21,5 @@ blade = media.Movie("Blade", "Bad ass never aging samarui vampire.", "https://up
 
 movies = [django, frozen, gotg2, logan, jumanji, blade]
 fresh_tomatoes.open_movies_page(movies)
+
+#print(media.Movie.__doc__)
