@@ -1,5 +1,6 @@
 import webbrowser
 
+#added in this Video class to utilize inheritance even though it isn't really necessary.
 class Video():
     def __init__(self, movie_title):
         self.title = movie_title
@@ -15,5 +16,6 @@ class Movie(Video):
         self.poster_image_url = poster_image_url
         self.trailer_youtube_url = trailer_youtube_url
 
+    #used to run the movie trailer when called
     def runTrailer(self):
         webbrowser.open(self.trailer_youtube_url)

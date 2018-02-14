@@ -1,6 +1,8 @@
 import fresh_tomatoes
 import media
 
+#Class filled with instances of movie that will be called into the html webpage via the movie array below
+
 django = media.Movie("Django Unchained","Former slave whoops ass.","https://upload.wikimedia.org/wikipedia/en/8/8b/Django_Unchained_Poster.jpg","https://www.youtube.com/watch?v=B9tF3KgEdAI")
 #print(django.title)
  
